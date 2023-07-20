@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*  */
+
+.header {
+    background-color: #01796C;
+}
+
+.section {
+    background-color: #008374;
+}
+
+.redes, .container {
+    margin: 0 13rem;
+}
+
+/*  */
+
+.rede img {
+    width: 1.3rem;
+}
+
+.twitter {
+    margin-top: 4px;
+}
+
+.rede {
+    width: 2rem;
+}
+
+.contatos, .sociais, .redes, .inicio, .menu, .conteudo-inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    height: 2.3rem;
+}
+
+.contatos, .menu {
+    width: 26rem;
+}
+
+.contato, .item {
+    font: 300 1rem 'Lucida', sans-serif;
+    color: rgba(255, 255, 255, 0.603);
+    transition: ease-in-out .3s;
+}
+
+.item {
+    font-size: 1.1rem;
+}
+
+.contato:hover, .item:hover {
+    color: white;
+}
+
+.inicio {
+    height: 3.5rem;
+}
+
+.logo {
+    font: 600 1.5rem 'Lucida', sans-serif;
+    color: white;
+}
+
+.logo span {
+    color: orangered;
+}
+
+.textos {
+    width: 50rem;
+}
+
+.titulo-inicial {
+    font: 400 1.7rem 'Lucida', sans-serif;
+    color: white;
+    margin: 0.8rem 0;
+    
+}
+
+.texto {
+    color: white;
+    font: 300 1rem 'Lucida', sans-serif;
+    text-align: justify;
+}
+
+.botao {
+    background-color: #01796C;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    border: .15rem solid #035f56;
+    font: 200 1.1rem 'Lucida', sans-serif;
+    margin-right: 20px;
+}
+
+.botoes {
+    margin-top: 1.8rem;
+}
+
+.video {
+    background-color: rgb(235, 104, 57);
+    border: .15rem solid rgb(185, 49, 0);
+}
+
+.quadrados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    background-color: #01796C;
+    text-align: center;
+    border: .15rem solid #035f56;
+    width: 11rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 30px 0;
+    box-shadow: 4px 4px 5px rgb(104, 103, 103);
+    border-radius: 0.5rem;
+    
+}
+
+.quadrado:hover {
+    transform: scale(1.1);
+}
+
+.quadrado img {
+    width: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.quadrado h3 {
+    color: white;
+    font: 300 1.2rem 'Lucida', sans-serif;
+}
+
+.segundo-conteudo .container .inicio {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3.125rem 0;
+}
+
+.texto-segundo {
+    text-align: justify;
+    font: 300 1rem 'Lucida', sans-serif;
+    text-align: justify;
+    line-height: 1.25rem;
+}
+
+.titulo-segundo {
+    font: 600 1.7rem 'Lucida', sans-serif;
+    margin: 0.8rem 0;
+    
+}
+
+textarea, input {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 15.625rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-contato {
+    
+    margin: 3rem 0;
+}
+
+label {
+    font: 300 1rem 'Lucida', sans-serif;
+    margin-right: 15px;
+    
+}
